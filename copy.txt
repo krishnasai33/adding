@@ -18,7 +18,7 @@ class Astratch{
         Subcl sb =new Subcl();
         sb.attack();
         sb.display();
-//abstract file
+//copy file
         
     }
 }
