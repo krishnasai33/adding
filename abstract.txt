@@ -1,0 +1,24 @@
+abstract class ObsClas {
+
+   public abstract void attack() ;
+   public void display(){
+    System.out.println("its a abstact class");
+
+   }
+       
+}
+class Subcl extends ObsClas{
+    public void attack() {
+        System.out.println("its a derived class");
+
+    }
+}
+class Astratch{
+    public static void main(String args[]) {
+        Subcl sb =new Subcl();
+        sb.attack();
+        sb.display();
+
+        
+    }
+}
